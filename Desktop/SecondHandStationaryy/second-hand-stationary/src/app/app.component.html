@@ -1,19 +1,90 @@
-<div class = "Header">
+<div class = "header">
 <nav class = "header_top">
-</nav>
-<div class = "header_menu"></div>
-<div class = "header_menuicon">
+  <style type="text/css" media="screen">
+  .header_top{
+    height: 60px;
+    background-color: #0f1111;
+    font-size: 14px;
+    display: flex;
+    color:white;
+    padding-right: 8px;
+ 
+    }
+
+ .header_menu{
+  display: flex;
+  padding: 10px, 8px, 8px, 8px;
+
+   }
+
+   .header_menu > div {
+     margin: 8px;
+   }
+
+   .header_menu_logo{
+object-fit: contain;
+width: 100px;
+margin: 12px, 20px, 0px 2px;
+
+
+}
+.header_menu_signin{
+display: flex;
+flex-direction: column;
+
+}
+.header_menu_icon{
+font-size: 30px;
+align-items: center;
+
+}
+
+.header_menu_top_item{
+font-size-adjust: 1opx;
+color: palevioletred;
+
+}
+
+.header_menu_bottom_item{
+font-size: 13px;
+font-weight: 800;
+
+}
+
+ </style>
+  
+<div class = "header_menu">
+<div class = "header_menu_icon">
+  <mat-icon>menu</mat-icon>
 </div>
-<img src="https://cdn.logojoy.com/wp-content/uploads/2018/05/30143400/210.png" class = "header_menu_logo" alt=""></img>
+<img src="https://images-platform.99static.com//pZiz_DAicT7hKU-zDvH_6AQgFFc=/423x1663:1203x2443/fit-in/590x590/99designs-contests-attachments/87/87409/attachment_87409860" class = "header_menu_logo" alt="Logo">
+
 <div class = "header_menu_searchbar">
+  
+
 
   <input type = "text" class = "header_menu_input"> 
-  <div class = "header_menu_searchbar_icon"></div>
+  <div class = "header_menu_searchbar_icon">
+
+  </div>
+</div>
+<div class = "header_menu_signin">
+  <span class = "header_menu_top_item"> Hello, sign in</span>
+  <span class = "header_menu_bottom_item"> Account & lists</span>
+
+</div><div class = "header_menu_signin">
+  <span class = "header_menu_top_item"> Returns</span>
+  <span class = "header_menu_bottom_item">& Orders</span>
+</div>
+
+<div class = "header_menu_cart">
+  <mat-icon>search</mat-icon>
+  <p class = "header_cart_number"></p>
 </div>
 
 </div>
 
-
+</nav>
 <nav class = "header_bottom">
 
 </nav>
